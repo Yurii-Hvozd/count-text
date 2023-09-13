@@ -16,7 +16,6 @@ inputTextarea.oninput = function () {
     // Підраховуємо слова в тексті
     const wordsCount = text.split(' ').length;
 
-    console.log("boxWordCount: ", boxWordCount);
     // Вивести кількість слів
     boxWordCount.innerText = wordsCount;
 };
